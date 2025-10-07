@@ -21,7 +21,7 @@ export default function PrivacyPolicy() {
         </div>
 
 
-        <section className="mb-8">
+        <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-database text-green-500"></i>
             1. Information We Collect
@@ -57,10 +57,10 @@ export default function PrivacyPolicy() {
               </ul>
             </div>
           </div>
-        </section>
+        </div>
 
 
-        <section className="mb-8">
+        <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-cog text-green-500"></i>
             2. How We Use Your Information
@@ -75,10 +75,10 @@ export default function PrivacyPolicy() {
             <li>To detect and prevent fraud and security issues</li>
             <li>To comply with legal obligations</li>
           </ul>
-        </section>
+        </div>
 
 
-        <section className="mb-8">
+        <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-chart-line text-green-500"></i>
             3. Cookies and Tracking Technologies
@@ -121,9 +121,9 @@ export default function PrivacyPolicy() {
               </p>
             </div>
           </div>
-        </section>
+        </div>
 
-        <section className="mb-8">
+        <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-share-alt text-green-500"></i>
             4. Data Sharing and Disclosure
@@ -148,9 +148,9 @@ export default function PrivacyPolicy() {
               form)
             </li>
           </ul>
-        </section>
+        </div>
 
-        <section className="mb-8">
+        <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-shield text-green-500"></i>
             5. Data Security
@@ -162,10 +162,10 @@ export default function PrivacyPolicy() {
             transmission is completely secure, and we cannot guarantee absolute
             security.
           </p>
-        </section>
+        </div>
 
 
-        <section className="mb-8">
+        <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-user text-green-500"></i>
             6. Your Rights and Choices
@@ -204,10 +204,10 @@ export default function PrivacyPolicy() {
               <span className="text-gray-700">Right to withdraw consent</span>
             </div>
           </div>
-        </section>
+        </div>
 
 
-        <section className="mb-8">
+        <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-external-link text-green-500"></i>
             7. Third-Party Links
@@ -217,8 +217,8 @@ export default function PrivacyPolicy() {
             Policy does not apply to those sites, and we encourage you to review
             their privacy policies before providing any personal information.
           </p>
-        </section>
-        <section className="mb-8">
+        </div>
+        <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-child text-green-500"></i>
             8. Children's Privacy
@@ -229,10 +229,10 @@ export default function PrivacyPolicy() {
             If you believe we have collected information from a child under 13,
             please contact us immediately.
           </p>
-        </section>
+        </div>
 
 
-        <section className="mb-8">
+        <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-globe text-green-500"></i>
             9. International Data Transfers
@@ -242,10 +242,10 @@ export default function PrivacyPolicy() {
             other than your own. We ensure appropriate safeguards are in place
             to protect your data in accordance with this Privacy Policy.
           </p>
-        </section>
+        </div>
 
 
-        <section className="mb-8">
+        <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-info-circle text-green-500"></i>
             10. Changes to This Policy
@@ -256,9 +256,9 @@ export default function PrivacyPolicy() {
             updating the "Last updated" date. We encourage you to review this
             policy periodically.
           </p>
-        </section>
+        </div>
 
-        <section className="bg-green-50 rounded-xl p-6 mt-12">
+        <div className="bg-green-50 rounded-xl p-6 mt-12">
           <h2 className="text-2xl font-bold text-green-700 mb-4 text-center">
             Contact Us
           </h2>
@@ -269,10 +269,7 @@ export default function PrivacyPolicy() {
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6 text-gray-700">
             <div className="flex items-center gap-2">
               <i className="pi pi-envelope text-green-600"></i>
-              <a
-                href="mailto:privacy@damdaily.com"
-                className="text-green-600 hover:underline font-semibold"
-              >
+              <a href="mailto:privacy@damdaily.com" className="text-green-600 hover:underline font-semibold">
                 privacy@damdaily.com
               </a>
             </div>
@@ -281,7 +278,7 @@ export default function PrivacyPolicy() {
               <span>+234-902-024-4367</span>
             </div>
           </div>
-        </section>
+        </div>
 
         <div className="text-center mt-8 pt-8 border-t border-gray-300">
           <p className="text-gray-600">
