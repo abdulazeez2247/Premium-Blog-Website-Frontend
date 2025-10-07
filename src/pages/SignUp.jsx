@@ -8,7 +8,6 @@ export default function SignUp() {
         <div className="text-3xl font-bold text-center text-green-700 mb-6">
           Create Your Account
         </div>
-
         <form className="space-y-4">
           <div>
             <div className="text-green-700">First Name</div>
@@ -18,7 +17,6 @@ export default function SignUp() {
               required
             />
           </div>
-
           <div>
             <div className="text-green-700">Last Name</div>
             <input
@@ -27,7 +25,6 @@ export default function SignUp() {
               required
             />
           </div>
-
           <div>
             <div className="text-green-700">Username</div>
             <input
@@ -36,7 +33,6 @@ export default function SignUp() {
               required
             />
           </div>
-
           <div>
             <div className="text-green-700">Email</div>
             <input
@@ -44,7 +40,6 @@ export default function SignUp() {
               className="w-full mt-1 p-2 border border-green-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
             />
           </div>
-
           <div>
             <div className="text-green-700">Phone Number</div>
             <input
@@ -52,7 +47,6 @@ export default function SignUp() {
               className="w-full mt-1 p-2 border border-green-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
             />
           </div>
-
           <div>
             <div className="text-green-700">Country</div>
             <input
@@ -61,7 +55,6 @@ export default function SignUp() {
               required
             />
           </div>
-
           <div>
             <div className="text-green-700">Password</div>
             <input
@@ -70,7 +63,6 @@ export default function SignUp() {
               required
             />
           </div>
-
           <div className="flex items-center gap-2">
             <input type="checkbox" required />
             <div className="text-sm text-gray-700">
@@ -90,15 +82,12 @@ export default function SignUp() {
              
             </div>
           </div>
-
           <button className="w-full bg-green-600 text-white py-2 rounded font-semibold">
             Sign Up
           </button>
-
           <div className="text-sm text-center text-gray-600">
             An OTP will be sent to your email or phone after registration.
           </div>
-
           <div className="text-sm text-center text-gray-700">
             Already have an account?{" "}
             <Link to="/login" className="text-green-700 font-semibold">

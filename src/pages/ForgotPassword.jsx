@@ -8,15 +8,12 @@ export default function ForgotPassword() {
         <h1 className="text-3xl font-bold text-center text-green-700 mb-6">
           Forgot Password
         </h1>
-
         <p className="text-center text-gray-600 mb-6 text-sm">
           Enter your registered <span className="font-semibold">email</span> or{" "}
           <span className="font-semibold">phone number</span> below, and we'll
           send you instructions to reset your password.
         </p>
-
         <form className="space-y-5">
-          {/* Email or Phone Input */}
           <div>
             <label className="block font-semibold text-green-700">
               Email or Phone Number
@@ -29,30 +26,13 @@ export default function ForgotPassword() {
               required
             />
           </div>
-
-          {/* Submit Button */}
-          <button
-            type="submit"
-            className="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded-md font-semibold transition-all"
-          >
-            Send Reset Instructions
-          </button>
-
-          {/* Back to Login */}
-          <p className="text-sm text-center text-gray-700 mt-4">
-            Remembered your password?{" "}
-            <Link
-              to="/login"
-              className="text-green-700 font-semibold hover:underline"
-            >
-              Login here
-            </Link>
+          <button type="submit" className="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded-md font-semibold transition-all">Send Reset Instructions</button>
+          <p className="text-sm text-center text-gray-700 mt-4"> Remembered your password?{" "}
+            <Link to="/login" className="text-green-700 font-semibold hover:underline">Login here</Link>
           </p>
         </form>
-
-        {/* Optional Note */}
         <p className="text-xs text-center text-gray-500 mt-6">
-          If you don’t receive a reset link or a 6-digits OTP code within a few minutes, make sure you
+          If you don't receive a reset link or a 6-digits OTP code within a few minutes, make sure you
           entered the correct email or phone number, or contact support.
         </p>
       </div>

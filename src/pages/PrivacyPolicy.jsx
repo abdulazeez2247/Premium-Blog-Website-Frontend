@@ -5,12 +5,9 @@ export default function PrivacyPolicy() {
     <div className="min-h-screen bg-gradient-to-b from-white to-green-50 text-gray-800 py-16 px-6 lg:px-20">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-green-600 mb-4">
-            Privacy Policy
-          </h1>
+          <h1 className="text-4xl font-bold text-green-600 mb-4"> Privacy Policy</h1>
           <p className="text-lg text-gray-600"></p>
         </div>
-
         <div className="mb-8">
           <p className="text-gray-700 leading-relaxed">
             At DamDaily, we are committed to protecting your privacy and
@@ -19,35 +16,23 @@ export default function PrivacyPolicy() {
             information when you visit our website.
           </p>
         </div>
-
-
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-database text-green-500"></i>
             1. Information We Collect
           </h2>
-
           <div className="space-y-4">
             <div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                Personal Information
-              </h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">Personal Information</h3>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
-                <li>
-                  Name and email address (when you subscribe to our newsletter)
-                </li>
-                <li>
-                  Contact information (when you submit inquiries or feedback)
-                </li>
+                <li>Name and email address (when you subscribe to our newsletter)</li>
+                <li>Contact information (when you submit inquiries or feedback)</li>
                 <li>Account credentials (if you create an account with us)</li>
                 <li>Demographic information (optional survey participation)</li>
               </ul>
             </div>
-
             <div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                Automatically Collected Information
-              </h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">Automatically Collected Information</h3>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
                 <li>IP address and browser type</li>
                 <li>Device information and operating system</li>
@@ -58,8 +43,6 @@ export default function PrivacyPolicy() {
             </div>
           </div>
         </div>
-
-
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-cog text-green-500"></i>
@@ -76,8 +59,6 @@ export default function PrivacyPolicy() {
             <li>To comply with legal obligations</li>
           </ul>
         </div>
-
-
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-chart-line text-green-500"></i>
@@ -89,40 +70,23 @@ export default function PrivacyPolicy() {
           </p>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-green-50 p-4 rounded-lg">
-              <h4 className="font-semibold text-green-700 mb-2">
-                Essential Cookies
-              </h4>
-              <p className="text-sm text-gray-700">
-                Required for basic site functionality
-              </p>
+              <h4 className="font-semibold text-green-700 mb-2">Essential Cookies</h4>
+              <p className="text-sm text-gray-700">Required for basic site functionality</p>
             </div>
             <div className="bg-green-50 p-4 rounded-lg">
-              <h4 className="font-semibold text-green-700 mb-2">
-                Analytics Cookies
-              </h4>
-              <p className="text-sm text-gray-700">
-                Help us understand how visitors interact with our site
-              </p>
+              <h4 className="font-semibold text-green-700 mb-2"> Analytics Cookies</h4>
+              <p className="text-sm text-gray-700">Help us understand how visitors interact with our site</p>
             </div>
             <div className="bg-green-50 p-4 rounded-lg">
-              <h4 className="font-semibold text-green-700 mb-2">
-                Preference Cookies
-              </h4>
-              <p className="text-sm text-gray-700">
-                Remember your settings and preferences
-              </p>
+              <h4 className="font-semibold text-green-700 mb-2">Preference Cookies</h4>
+              <p className="text-sm text-gray-700">Remember your settings and preferences</p>
             </div>
             <div className="bg-green-50 p-4 rounded-lg">
-              <h4 className="font-semibold text-green-700 mb-2">
-                Advertising Cookies
-              </h4>
-              <p className="text-sm text-gray-700">
-                Deliver relevant advertisements
-              </p>
+              <h4 className="font-semibold text-green-700 mb-2">Advertising Cookies</h4>
+              <p className="text-sm text-gray-700">Deliver relevant advertisements</p>
             </div>
           </div>
         </div>
-
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-share-alt text-green-500"></i>
@@ -133,23 +97,12 @@ export default function PrivacyPolicy() {
             with:
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-            <li>
-              Service providers and business partners (analytics, hosting, email
-              services)
-            </li>
-            <li>
-              Legal authorities when required by law or to protect our rights
-            </li>
-            <li>
-              Third parties in connection with business transfers or mergers
-            </li>
-            <li>
-              Advertising partners (in aggregated, non-personally identifiable
-              form)
-            </li>
+            <li>Service providers and business partners (analytics, hosting, email services)</li>
+            <li>Legal authorities when required by law or to protect our rights</li>
+            <li>Third parties in connection with business transfers or mergers</li>
+            <li>Advertising partners (in aggregated, non-personally identifiableform)</li>
           </ul>
         </div>
-
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-shield text-green-500"></i>
@@ -163,8 +116,6 @@ export default function PrivacyPolicy() {
             security.
           </p>
         </div>
-
-
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-user text-green-500"></i>
@@ -205,8 +156,6 @@ export default function PrivacyPolicy() {
             </div>
           </div>
         </div>
-
-
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-external-link text-green-500"></i>
@@ -230,8 +179,6 @@ export default function PrivacyPolicy() {
             please contact us immediately.
           </p>
         </div>
-
-
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-globe text-green-500"></i>
@@ -243,8 +190,6 @@ export default function PrivacyPolicy() {
             to protect your data in accordance with this Privacy Policy.
           </p>
         </div>
-
-
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
             <i className="pi pi-info-circle text-green-500"></i>
@@ -257,7 +202,6 @@ export default function PrivacyPolicy() {
             policy periodically.
           </p>
         </div>
-
         <div className="bg-green-50 rounded-xl p-6 mt-12">
           <h2 className="text-2xl font-bold text-green-700 mb-4 text-center">
             Contact Us
@@ -279,7 +223,6 @@ export default function PrivacyPolicy() {
             </div>
           </div>
         </div>
-
         <div className="text-center mt-8 pt-8 border-t border-gray-300">
           <p className="text-gray-600">
             Thank you for trusting DamDaily with your information.

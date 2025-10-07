@@ -8,11 +8,9 @@ export default function ResetPassword() {
         <div className="text-3xl font-bold text-center text-green-700 mb-6">
           Reset Password
         </div>
-
         <div className="text-gray-600 text-center mb-6">
           Create a new password for your account
         </div>
-
         <form className="space-y-4">
           <div>
             <div className="text-green-700">New Password</div>
@@ -23,7 +21,6 @@ export default function ResetPassword() {
               required
             />
           </div>
-
           <div>
             <div className="text-green-700">Confirm New Password</div>
             <input
@@ -33,15 +30,9 @@ export default function ResetPassword() {
               required
             />
           </div>
-
-          <button className="w-full bg-green-600 text-white py-2 rounded font-semibold">
-            Reset Password
-          </button>
-
+          <button className="w-full bg-green-600 text-white py-2 rounded font-semibold">Reset Password</button>
           <div className="text-sm text-center text-gray-700">
-            <Link to="/login" className="text-green-700 font-semibold">
-              Back to Login
-            </Link>
+            <Link to="/login" className="text-green-700 font-semibold">Back to Login</Link>
           </div>
         </form>
       </div>
