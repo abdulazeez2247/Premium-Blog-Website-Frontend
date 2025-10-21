@@ -1,16 +1,58 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { loginUser } from "../data/api";
+import { toast } from "react-toastify";
 
 export default function SignIn() {
+
+  const [email, setEmail] = useState('');
+  const [Password, setPassword] = useState('');
+  const navigate = useNavigate();
+
+  const loginsubmit = async (e) => {
+    e.preventDefault();
+
+    if (!email || ! Password) {
+      toast.warning('Please fill all the required details');
+      console.log('Please fill all the required details');
+      return;
+    }
+
+    try {
+      const response = await loginUser(email, Password);
+      console.log('Login response', response.data);
+
+      if (response.data?.success) {
+        toast.success(response.data.message || 'Login Successful');
+        console.log(response.data.data.user.email);
+        console.log(response.data.data.token);
+
+        sessionStorage.setItem('Token', response.data.data.token);
+        console.log(response.data.data.user.email, 'Tokin saved');
+        navigate('/forgotpassword');
+      } else{
+        toast.error(response.data.message);
+        console.log(response.data.message);
+        
+      }
+      
+    } catch (error) {
+      console.log(error);
+      toast.error(error.response?.data?.message || 'Login failed')
+      
+    }
+  }
   return (
     <div className="min-h-screen bg-[#f4f7f4] text-gray-800 flex justify-center items-center p-6">
       <div className="w-full max-w-md bg-white/90 shadow-lg rounded-2xl p-8 border border-green-200">
         <h1 className="text-3xl font-bold text-center text-green-700 mb-6">Welcome Back</h1>
-        <form className="space-y-4">
+        <form className="space-y-4" onSubmit={loginsubmit}>
           <div>
             <label className="block font-semibold text-green-700">Email or Phone Number</label>
             <input
               type="text"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               name="emailOrPhone"
               placeholder="Enter your email or phone"
               className="w-full mt-1 p-2 border border-green-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
@@ -21,6 +63,8 @@ export default function SignIn() {
             <label className="block font-semibold text-green-700">Password</label>
             <input
               type="password"
+              value={Password}
+              onChange={(e) => setPassword(e.target.value)}
               name="password"
               placeholder="Enter your password"
               className="w-full mt-1 p-2 border border-green-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"

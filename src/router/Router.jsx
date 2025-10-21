@@ -11,6 +11,7 @@ import ResetPassword from '../pages/ResetPassword'
 import Verify from '../pages/Verify'
 import ResendOtp from '../pages/ResendOtp'
 import SignIn from '../pages/SignIn'
+import Footer from '../components/Footer'
 
 export default function Router() {
   return (
@@ -29,6 +30,7 @@ export default function Router() {
             <Route path='/verify' element={<Verify/>}/>
             <Route path='/resendotp' element={<ResendOtp/>}/>
         </Routes>
+        <Footer/>
         </BrowserRouter>
     </div>
   )
